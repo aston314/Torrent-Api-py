@@ -1,7 +1,7 @@
 aiohttp[speedups]
 beautifulsoup4
 cloudscraper
-fastapi==0.104.1
+fastapi==0.103.2
 gunicorn
 mangum
 requests
