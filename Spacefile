@@ -1,0 +1,8 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: Torrent-Api-py
+    src: ./Torrent-Api-py-main/
+    engine: python3.9
+    public_routes:
+      - "/*"
