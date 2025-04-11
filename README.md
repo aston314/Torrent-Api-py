@@ -262,6 +262,16 @@ $ localhost:8009
 <br>
 
 <details open>
+<summary style='font-size: 15px'><span style='font-size: 20px;font-weight:bold;'>Site Configs</span></summary>
+<p>
+
+> [`api/v1/sites/config`](https://torrent-api-py-nx0x.onrender.com/api/v1/sites/config)
+
+</p>
+</details>
+<br>
+
+<details open>
 <summary style='font-size: 15px'><span style='font-size: 20px;font-weight:bold;'>Search</span></summary>
 <p>
 
@@ -390,6 +400,10 @@ $ localhost:8009
 </details>
 
 ---
+
+## Authentication
+
+To enable authentication, set your API key in the environment variable `PYTORRENTS_API_KEY`. Clients must include this key in the `x-api-key` header of their requests to authenticate successfully.
 
 ## Want to Try api ?
 
